@@ -1,0 +1,71 @@
+* { padding: 0; margin: 0; border: 0; font-family: "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", 微软雅黑, Tahoma, Arial, sans-serif; font-size: 15px; list-style: none; text-decoration: none; }
+
+/*导航*/
+nav { height: 70px; width: 100%; background: black; overflow: hidden; }
+.navWarp { height: 100%; width: 100%; }
+.logo { height: 70px; width: 128px; background: url(../img/logo.png)  no-repeat left 50%; float: left; margin: 0 30px; cursor: pointer}
+.topnav { float: left; height: 70px; width: 700px; line-height: 70px; }
+.topnav>ul>li { float: left; color: white; list-style: none; width: 100px; text-align: center; cursor: pointer}
+.newicon { background: url(../img/icon-new.png); height: 16px; width: 16px; float: right; margin-top: 13px; }
+.topnav>ul>li:hover, .vis { background: #363c41; }
+.vistips { float: left; margin-left: 20px; }
+.search { border-bottom: solid 1px; border-color: #4D555d; width: 250px; height: 30px; float: right; overflow: hidden; margin-top: 25px; margin-right: 20px; }
+.searchText { margin-top: -40px; width: 150px; height: 50px; background-color: black; border: none; outline: none; color: white; }
+.searchTip { height: 40px; width: 100px; margin-top: -35px; margin-left: 3px; z-index: 2; }
+.searchTip>a { color: #93999f; background-color: #2c3238; text-decoration: none; height: 30px; padding: 6px; }
+.searchBtn { cursor: pointer;height: 22px; width: 50px; background: url(../img/icon-1-sprite_w22.png)  no-repeat; background-position: 20px 0; float: right; }
+.user { cursor: pointer;float: right; margin: 10px 30px; background: url(../img/ava.jpg) no-repeat center; height: 45px; width: 45px; border-radius: 50px; -moz-border-radius: 50px; /* Old Firefox */ background-size: 45px; }
+.icon { height: 60px; width: 130px; float: right; }
+/*.icon>li { cursor: pointer;height: 30px; width: 30px; float: right; }*/
+.navIcon1 { cursor: pointer;height: 30px; width: 30px; background: url(../img/shopcar.png); background-position: 281px -205px; float: left; margin-top: 15px; margin-left: 20px; }
+.navIcon2 { cursor: pointer;height: 22px; width: 22px; background: url(../img/icon-1-sprite_w22.png)  left; background-position: 22px -44px; float: right; margin-top: 24px; margin-left: 10px; margin-right: 10px; }
+
+/*主体*/
+section { height: 800px; width: 100%; }
+.backgroundImg { height: 160px; width: 100%; background: url(../img/cart-header-bg.jpg) repeat-x; }
+.mainseation { height: 800px; width: 100%; z-index: 3; margin: 0; padding: 0; margin-top: -160px; }
+.buy { height: 100%; width: 1200px; margin: 0 auto; }
+.buy>h1 { font-size: 26px; padding-top: 40px; }
+.buy>.box { height: 575px; width: 1200px; margin-top: 30px;  /*  border: solid #93999f 1px;*/ box-shadow: 0 0 5px 2px #c3cad1; }
+.buytitle { height: 55px; width: 100%; background-color: #ededed; }
+.buybox { height: 128px; width: 100%; border-bottom: solid #ededed 2px; }
+.buyboxlast { height: 130px; border-bottom: none }
+.listModel { height: 130px; }
+.listModel>ul>li { float: left; text-align: center; line-height: 55px; font-weight: 600; color: #2c3238; }
+.selects { width: 100px; }
+.titleselect>input { margin-left: 30px; margin-right: 10px; }
+.categoryselsct>input { margin-right: 10px; }
+.products { width: 300px }
+.total, .price { width: 200px }
+.number { width: 200px }
+.operation { width: 200px }
+.category>ul>li { line-height: 130px; height: 130px; font-weight: 500; }
+.productsimg { cursor: pointer;background: url(../img/g1.jpg) no-repeat center; height: 130px; width: 160px; float: left; }
+.second { background: url(../img/g2.jpg) no-repeat center; }
+.productsname { float: right; margin-right: 10px; }
+.subtract, .productsnumber, .add { text-align: center; }
+.productsnumber { width: 80px; margin: 10px; border: solid #c3cad1 0.5px; }
+.subtract, .add { cursor: pointer;font-size: 8px; width: 15px; background: white; border: solid #c3cad1 0.5px; margin-top: 2px; }
+.accounts { height: 55px; width: 100%; box-shadow: 0 0 5px 2px #c3cad1; margin-top: 30px; }
+.accountsNum { height: 100%; width: 90%; float: left; }
+.accountsBtn { color: white; height: 100%; width: 10%; background-color: #ff0000; float: right; text-align: center; line-height: 55px; font-weight: bold; font-size: 17px; cursor: pointer; }
+.accountsNum>.accountsNumleft { float: right; padding-right: 20px; }
+.accountsNum>.accountsNumleft>span { line-height: 55px; color: red; font-size: 18px; font-weight: 598; }
+.operation>p { cursor: pointer; height: 50px; width: 50px; text-align: center; margin: 0 auto 0; }
+.accountsNum>.accountsNumleft>.sign { color: black; font-size: 16px; }
+
+/*页脚*/
+footer { background: black; height: 80px; width: 100%; }
+.footwarp { width: 1200px; height: 80px; margin: 0 auto; }
+.footleft { width: 900px; height: 80px; float: left; }
+.footleft>li { float: left; margin: 20px 20px 10px; }
+.footleft>li>a { color: #959aa0; font-size: 13px; }
+.footleft>li>a:hover { color: #fff; font-size: 13px; }
+.Copyright { font-size: 12px; color: gray; width: 100%; height: 25px; margin-left: 20px; float: left; }
+.footIcon { width: 300px; height: 80px; float: right; }
+.icons { height: 40px; width: 40px; float: right; margin: 20px 5px 20px; position: relative; }
+.icon3 { background: url(../img/footer-sprite.png) no-repeat; background-position: 0 -275px; opacity: 0.5; filter: "alpha(opacity=50)"; }
+.icon2 { background: url(../img/footer-sprite.png) no-repeat; background-position: 0 -317px; opacity: 0.5; filter: "alpha(opacity=50)"; }
+.icon1 { background: url(../img/footer-sprite.png) no-repeat; background-position: 0 -358px; opacity: 0.5; filter: "alpha(opacity=50)"; }
+.icons:hover { opacity: 1; filter: "alpha(opacity=100)"; cursor: pointer; }
+.weixin { background: url(../img/footer-sprite.png) no-repeat; height: 216px; width: 160px; z-index: 4; position: absolute; left: -70px; bottom: 40px; visibility: hidden; }

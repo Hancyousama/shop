@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/js.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+
+</head>
+<body>
+
+<nav>
+    <div class="navWarp">
+        <div class="logo"></div>
+        <div class="topnav">
+            <ul>
+                <li>课程</li>
+                <li class="vis">
+                    <div class="vistips">职业路径</div>
+                    <div class="newicon"></div>
+                </li>
+                <li>实战</li>
+                <li>猿问</li>
+                <li>手记</li>
+            </ul>
+        </div>
+        <div class="user"></div>
+        <div class="icon">
+            <li class="navIcon1"></li>
+            <li class="navIcon2"></li>
+        </div>
+
+        <div class="search">
+
+            <input type="text" class="searchText">
+
+            <div class="searchBtn"></div>
+            <div class="searchTip"><a href="">前端小白</a></div>
+        </div>
+    </div>
+</nav>
+<section>
+    <div class="backgroundImg"></div>
+
+    <div class="mainseation">
+        <div class="buy">
+            <h1>我的购物车</h1>
+            <div class="box">
+                <div class="buytitle">
+                    <div class="listModel buyTitle">
+                        <ul>
+                            <li class="selects titleselect"><input type="checkbox" class="buyTitlechecked"
+                                                                   checked="checked">全选
+                            </li>
+                            <li class="products">商品名称</li>
+                            <li class="total">总价</li>
+                            <li class="price">单价</li>
+                            <li class="number">数量</li>
+                            <li class="operation">操作</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="buybox">
+                    <div class="listModel category firstProducts">
+                        <ul>
+                            <li class="selects categoryselsct">
+                                <input type="checkbox" class="selectcheakbox" checked="checked">
+                            </li>
+                            <li class="products">
+                                <div class="productsimg"></div>
+                                <div class="productsname">前端小白成长记</div>
+                            </li>
+                            <li class="total"><span class="currency">¥</span><span class="totalPrice">396</span></li>
+                            <li class="price"><span class="currency">¥</span><span class="univalent">396</span></li>
+                            <li class="number">
+                                <input type="button" class="subtract" value="-" title="firstProducts">
+                                <input type="text" class="productsnumber" value="1" title="firstProducts">
+                                <input type="button" class="add" value="+" title="firstProducts">
+                            </li>
+                            <li class="operation"><p>删除</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="buybox">
+                    <div class="listModel category secondProducts">
+                        <ul>
+                            <li class="selects categoryselsct">
+                                <input type="checkbox" class="selectcheakbox" checked="checked">
+                            </li>
+                            <li class="products">
+                                <div class="productsimg second"></div>
+                                <div class="productsname">前端小白成长记</div>
+                            </li>
+                            <li class="total"><span class="currency">¥</span><span class="totalPrice">396</span></li>
+                            <li class="price"><span class="currency">¥</span><span class="univalent">396</span></li>
+                            <li class="number">
+                                <input type="button" class="subtract" value="-" title="secondProducts">
+                                <input type="text" class="productsnumber" value="1" title="secondProducts">
+                                <input type="button" class="add" value="+" title="secondProducts">
+                            </li>
+                            <li class="operation"><p>删除</p></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="buybox">
+                    <div class="listModel category thirdProducts">
+                        <ul>
+                            <li class="selects categoryselsct">
+                                <input type="checkbox" class="selectcheakbox" checked="checked">
+                            </li>
+                            <li class="products">
+                                <div class="productsimg"></div>
+                                <div class="productsname">前端小白成长记</div>
+                            </li>
+                            <li class="total"><span class="currency">¥</span><span class="totalPrice">396</span></li>
+                            <li class="price"><span class="currency">¥</span><span class="univalent">396</span></li>
+                            <li class="number">
+                                <input type="button" class="subtract" value="-" title="thirdProducts">
+                                <input type="text" class="productsnumber" value="1" title="thirdProducts">
+                                <input type="button" class="add" value="+" title="thirdProducts">
+                            </li>
+                            <li class="operation"><p>删除</p></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="buybox buyboxlast">
+                    <div class="listModel category fourProducts">
+                        <ul>
+                            <li class="selects categoryselsct">
+                                <input type="checkbox" class="selectcheakbox" checked="checked">
+                            </li>
+                            <li class="products">
+                                <div class="productsimg"></div>
+                                <div class="productsname">前端小白成长记</div>
+                            </li>
+                            <li class="total"><span class="currency">¥</span><span class="totalPrice">396</span></li>
+                            <li class="price"><span class="currency">¥</span><span class="univalent">396</span></li>
+                            <li class="number">
+                                <input type="button" class="subtract" value="-" title="fourProducts">
+                                <input type="text" class="productsnumber" value="1" title="fourProducts">
+                                <input type="button" class="add" value="+" title="fourProducts">
+                            </li>
+                            <li class="operation"><p>删除</p></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="accounts">
+                <div class="accountsNum">
+                    <div class="accountsNumleft">
+                        <span class="sign">应付金额：</span>
+                        <span>¥</span>
+                        <span class="accountsAll">1584</span>
+                    </div>
+                </div>
+                <div class="accountsBtn">去结算</div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="footwarp">
+        <div class="footleft">
+            <li><a href="">网站首页</a></li>
+            <li><a href="">企业合作</a></li>
+            <li><a href="">人才招聘</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">讲师招募</a></li>
+            <li><a href="">常见问题</a></li>
+            <li><a href="">意见反馈</a></li>
+            <li><a href="">慕课大学</a></li>
+            <li><a href="">友情链接</a></li>
+
+            <div class="Copyright">Copyright © 2017 imooc.com All Rights Reserved | 京ICP备 13046642号-2</div>
+
+        </div>
+
+        <div class="footIcon">
+
+            <a href="" class="icons icon1"></a>
+            <a href="" class="icons icon2"></a>
+            <a href="" class="icons icon3">
+                <div class="weixin"></div>
+            </a>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
